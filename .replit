@@ -1,0 +1,5 @@
+language = "bash"
+run = "/bin/bash"
+
+[deployment]
+run = ["sh", "-c", "/bin/bash"]
